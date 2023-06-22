@@ -9,19 +9,25 @@
         <div class="GoogleHeader"> 
             <img src="images/Google Logo.png" alt="Google Logo" class="GoogleLogo">
             </div>
-        <div class="textfield">
-        <form action="https://www.google.com/search?as_q=&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=&tbs=">
-            <input type="text" name="q">
-            <input type="text" name="all these words"
-            <input type="text" name="this exact word or phrase"
-            <input type="text" name= "any of these words"
-            <input type="text" name= "none of these words"
-
-
-        </div>
-        <div class="submit"> 
-            <input type="submit" value="Google Search">
-        </div>
+        <form action="https://www.google.com/search"  method="GET">
+        <div>
+            <label for="all-words">Find pages with... "all these words:"</label><br>
+      <input type="text" id="all-words" name="allwords"> // specific query paramter 
+     </div>
+      <div>
+      <label for="exact-phrase">Find pages with... "this exact word or phrase:"</label><br>
+      <input type="text" id="exact-phrase" name="exactphrase">
+    </div>
+    <div>
+      <label for="any-words">Find pages with... "any of these words:"</label><br>
+      <input type="text" id="any-words" name="anywords">
+    </div>
+     <div>
+      <label for="none-words">Find pages with... "none of these words:"</label><br>
+      <input type="text" id="none-words" name="nonewords">
+       </div>
+     <input type="submit" value="Advanced Search" class="advanced-search-btn">
+     </form>
         </form>
     </body>
 </html>

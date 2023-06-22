@@ -7,12 +7,13 @@
     </head>
     <body>
         <div class="GoogleHeader"> 
-            <img src="images/Google Logo.png" alt="Google Logo" class="GoogleLogo">
+            <img src="images/googleimageslogo.png" alt="Google Logo" class="GoogleLogo">
             </div>
         <div class="textfield"> 
-        <form action="https://google.com/search">
-            <input type="text" name="q">
-        </div>
+            <form action="https://www.google.com/search" autocomplete="off" method="GET" role="search">
+                <input type="text" name="tbm" value="isch" hidden>
+                 <input type="text" name="q">
+           
         <div class="submit"> 
             <input type="submit" value="Google Search">
      </div>
