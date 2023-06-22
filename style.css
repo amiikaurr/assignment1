@@ -1,4 +1,37 @@
-.googleheader { 
-    width: 600px;
-    margin: 0 auto;
+.GoogleHeader { 
+ display: flex;
+justify-content: center;
+align-items: center;
+}
+.GoogleLogo {
+  height: auto; 
+  display: flex;
+  align-items: center;
+}
+.textfield {
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+outline-offset: -10px;
+}
+.submit {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.top-right-link {
+  position: fixed;
+  top: 10px;
+  right: 100px;
+}
+.top-right-link2 {
+  position: fixed;
+  top: 10px;
+  right: 200px;
+}
+.back2search {
+  position: fixed;
+  top: 10px;
+  right: 100px;
 }
