@@ -6,28 +6,30 @@
         <title>Google Search</title>
     </head>
     <body>
-        <div class="GoogleHeader"> 
+        <div class="AdvancedHeader"> 
             <img src="images/Google Logo.png" alt="Google Logo" class="GoogleLogo">
             </div>
+            <h2> Advanced Search </h2>
         <form action="https://www.google.com/search"  method="GET">
         <div>
             <label for="all-words">Find pages with... "all these words:"</label><br>
-      <input type="text" id="all-words" name="allwords"> // specific query paramter 
+            <input type="text" id="all-words" name="as_q">
      </div>
       <div>
       <label for="exact-phrase">Find pages with... "this exact word or phrase:"</label><br>
-      <input type="text" id="exact-phrase" name="exactphrase">
+      <input type="text" id="exact-phrase" name="as_epq">
     </div>
     <div>
       <label for="any-words">Find pages with... "any of these words:"</label><br>
-      <input type="text" id="any-words" name="anywords">
+      <input type="text" id="any-words" name="as_oq">
     </div>
      <div>
       <label for="none-words">Find pages with... "none of these words:"</label><br>
-      <input type="text" id="none-words" name="nonewords">
+      <input type="text" id="none-words" name="as_eq">
        </div>
      <input type="submit" value="Advanced Search" class="advanced-search-btn">
      </form>
         </form>
     </body>
 </html>
+
