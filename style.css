@@ -65,3 +65,19 @@ h2 {
   align-items: flex-start;
   size-adjust: -10;
 }
+.submit {
+  display: inline-block;
+}
+
+.button-container {
+  align-items: center;
+  display: inline-block;
+  margin: 0 20px;
+justify-content: center;
+}
+
+
+.lucky-btn {
+  display: inline-block;
+  margin-left: 10px; 
+}
