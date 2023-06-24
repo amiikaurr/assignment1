@@ -68,3 +68,13 @@ h2 {
 .submit {
   display: inline-block;
 }
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px; 
+}
+
+.button-container input[type="submit"] {
+  margin: 0 5px;
+}
